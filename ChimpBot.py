@@ -1,15 +1,11 @@
 # https://developers.google.com/sheets/api/quickstart/python
 
 import json
-import pickle
 import re
 import time
 from sys import exit, argv
 from os import path, environ
-import socket
 
-from google.auth.transport.requests import Request
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from mailchimp3 import MailChimp
 
@@ -17,9 +13,6 @@ class EmptyEnvVariable(Exception):
 	pass
 
 class SpreadSheet:
-
-	# If modifying these scopes, delete the file token.pickle.
-	_scopes = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 	_service = None
 	_sheet = None
