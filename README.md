@@ -1,5 +1,5 @@
-# LAP-Mailchimp
-Keeps Mailchimp up to date with the latest mail mailing list from google drive
+# ChimpBot
+Synchronizes Mailchimp with the latest email addresses gathered from Google Sheets.
 
 # Installation
 Create a new project at https://console.developers.google.com/<br>

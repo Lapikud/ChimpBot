@@ -146,7 +146,7 @@ if __name__ == '__main__':
 					for profile in diff:
 						if profile in newData and profile["email"] not in mc_all_emails:
 							print(f"New email added to {mc_list_name}: {profile['email']}")
-							# mailChimp.add_new_email(mc_list, profile)
+							mailChimp.add_new_email(mc_list, profile)
 			else:
 				print("No new emails were found")
 
