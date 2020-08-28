@@ -1,6 +1,6 @@
 version: '3'
 services:
-  lap-mailchimp:
+  chimpbot:
     build: .
     environment:
       - GOOGLE_SHEETS_API_KEY=<GOOGLE SHEETS API KEY>
